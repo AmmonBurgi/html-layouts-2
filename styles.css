@@ -1,6 +1,7 @@
 body {
-    height: 100vh;
+    height: 150vh;
     width: 100%;
+    background-color: white;
 }
 header {
 
@@ -82,7 +83,7 @@ img {
 .slide-photo {
     background-image: url(https://image.slidesharecdn.com/doom-in-spacex-11-public-161019091229/95/doom-in-spacex-1-638.jpg?cb=1476868392) ;
     
-    width: 100vw;
+    width: 100%;
     height: 80vh;
     background-size: 100% 70vh;
     display: flex;
@@ -111,3 +112,151 @@ img {
     right: 500px
 
 }
+.Learn-More {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.probox {
+    background-color: #21272b;
+    width: 100%;
+    height: 75px;
+    position: absolute;
+    bottom: 130px
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: sans-serif ;
+    
+    
+}
+.box1 {
+    width: 200px;
+    height: 45px;
+    border: 2px solid black;
+    padding-top: 25px;
+    padding-left: 40px;
+    color:white
+}
+.box2 {
+    width: 300px;
+    height: 45px;
+    border: 2px solid black;
+    padding-top: 25px;
+    padding-left: 40px;
+    color: white
+    
+}
+.box3 {
+    width: 350px;
+    height: 45px;
+    border: 2px solid black;
+    padding-top: 25px;
+    padding-left: 40px;
+    color: white
+
+}
+.greybox {
+    width: 100%;
+    height: 125px;
+    background-color: #e7e7e7;
+    position: absolute;
+    bottom: 4px
+}
+.wording {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: -105px
+}
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    bottom: -250px;
+    left:650px
+}
+.boxin1{
+    width: 200px;
+    height: 200px;
+    box-shadow:0px 0px 3px 3px black ;
+    background-image: url(https://cdn.britannica.com/58/171658-050-E92A82EB/Dragon-capsule-SpaceX-docking-spacecraft-International-Space-May-25-2012.jpg);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: top 5px center;
+    justify-content: center;
+}
+.boxin2 {
+    width: 200px;
+    height: 200px;
+    box-shadow:0px 0px 3px 3px black ;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQe8XniIsfSq_1QoBjv8tUsvo7d6lcUa8ZU8iCZ450AsRDcgMqn);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: top 5px center;
+    justify-content: center;
+    
+}
+.boxin3 {
+    width: 200px;
+    height: 200px;
+    box-shadow:0px 0px 3px 3px black;
+    background-image: url(https://live.staticflickr.com/4654/25254688767_83c0563d06_b.jpg);
+    background-size: 180px;
+    background-repeat: no-repeat;
+    background-position: top 5px center;
+    justify-content: center;
+}
+footer {
+background-color: black;
+width: 100%;
+height: 75px;
+position: absolute;
+bottom: -550px
+}
+.imgf {
+    
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-evenly;
+
+}
+.spacex {
+    width: 50px;
+    height: 75px;
+    color:white;
+    margin-top: 25px;
+}
+.twitter {
+    width: 50px;
+    height: 75px;
+    color: white;
+}
+.youtube {
+    width: 50px;
+    height: 75px;
+    color:white
+}
+.flickr {
+    width: 50px;
+    height: 75px;
+    color: white
+}
+.instagram {
+    width: 50px;
+    height: 75px;
+    color: white
+}
+.privacy {
+    width: 50px;
+    height: 75px;
+    color: white
+}
+
