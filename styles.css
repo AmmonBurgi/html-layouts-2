@@ -1,0 +1,113 @@
+body {
+    height: 100vh;
+    width: 100%;
+}
+header {
+
+    background: black;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: sans-serif;
+    justify-content: space-around;
+    position: relative;
+    font-size: 14px;
+    
+
+}
+img {
+    width: 225px;
+    height: 125px;
+    margin: 0px;
+    position: relative;
+    left: 400px;
+    bottom: 5px
+  
+    
+}
+.Falcon {
+    color: white;
+    position: relative;
+    left: 250px
+}
+
+
+.Falcon-Heavy{
+    color: white;
+    position: relative;
+    left: 140px
+}
+.Dragon{
+    color: white;
+    position: relative;
+    left: 30px
+}
+.Starship {
+    color: white;
+    position: relative;
+    left: -75px
+}
+.update{
+    color: #696e75;
+    position: relative;
+    left: -70px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.about {
+    color: #696e75;
+    position: relative;
+    left:-180px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.careers {
+    color: #696e75;
+    position: relative;
+    right:290px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.shop {
+    color:#696e75;
+    position: relative;
+    right: 400px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.slide-photo {
+    background-image: url(https://image.slidesharecdn.com/doom-in-spacex-11-public-161019091229/95/doom-in-spacex-1-638.jpg?cb=1476868392) ;
+    
+    width: 100vw;
+    height: 80vh;
+    background-size: 100% 70vh;
+    display: flex;
+    position: absolute;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-size: cover; */
+    overflow:
+}
+.opacity {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 580px
+}
+.button {
+    width: 150px;
+    height: 35px;
+    background-color: white;
+    font-size: 14px;
+    position: absolute;
+
+    bottom:145px;
+    right: 500px
+
+}
